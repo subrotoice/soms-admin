@@ -146,6 +146,26 @@ a {
   background: #eef2f5;
 }
 
+@media screen and (max-width: 500px) {
+  .sidebar {
+    width: 80px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .sidebar {
+    width: 100px;
+  }
+
+  .sidebar__title {
+    display: none;
+  }
+
+  .sidebar img {
+    max-width: 100%;
+  }
+}
+
 /* Navbar container */
 .navbar {
   color: var(--color-body);
